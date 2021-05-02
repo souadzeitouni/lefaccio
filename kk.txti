@@ -1,0 +1,57 @@
+<div class="container">
+      <div class="gallery">
+       <a href="images\2.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\2.jpg"></a>
+       <a href="images\1-1.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\1-1.jpg"></a>
+       <a href="images\1-12.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\1-12.jpg"></a>
+       <a href="images\4-4.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\4-4.jpg"></a>
+       <a href="images\1-7.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\1-7.jpg"></a>
+       <a href="images\3-7.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\3-7.jpg"></a>
+       <a href="images\cddds.jpg" data-lightbox="mygallery" data-title="auutomotive showroom"> 
+         <img src="images\cddds.jpg"></a>
+       <a href="images\6-3.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\6-3.jpg"></a>
+       <a href="images\7-3.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\7-3.jpg"></a>
+       <a href="images\RENDER-01-.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\RENDER-01-.jpg"></a>
+       <a href="images\RENDER-02.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\RENDER-02.jpg"></a>
+       <a href="images\5-3.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\5-3.jpg"></a>
+       <a href="images\2-11.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\2-11.jpg"></a>
+       <a href="images\1-16.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\1-16.jpg"></a>
+       <a href="images\4-9.jpg" data-lightbox="mygallery" data-title="auutomotive showroom">
+         <img src="images\4-9.jpg"></a>
+
+      </div>
+    </div>
+
+
+
+
+
+.gallery{
+  margin: 0 auto;
+  padding-bottom: 500px;
+  
+ }
+ 
+ .gallery img {
+   transition: 1s;
+   padding: 2px;
+   width: 500px;
+ }
+ 
+  .gallery img:hover {
+   filter: blur(5px);
+   transform: scale(1.1);
+   
+  }

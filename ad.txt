@@ -1,0 +1,210 @@
+<div class="gallery">
+      <div class="image">
+        <a href="images\2.jpg"  data-lightbox="mygallery"><img class="image__img" src="images\2.jpg"></a>
+        <div class="image__overlay image__overlay--blur">
+            <div class="image__title">Bricks</div>
+            <p class="image__description">
+                Here we have a brick wall.
+            </p>
+        </div>
+    </div>
+    <div class="image">
+      <img class="image__img" src="images\1-1.jpg" alt="Bricks">
+      <div class="image__overlay image__overlay--blur">
+          <div class="image__title">Bricks</div>
+          <p class="image__description">
+              Here we have a brick wall.
+          </p>
+      </div>
+  </div>
+  <div class="image">
+    <img class="image__img" src="images\1-12.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--blur">
+        <div class="image__title">Bricks</div>
+        <p class="image__description">
+            Here we have a brick wall.
+        </p>
+    </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\4-4.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\1-7.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\3-7.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\cddds.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\6-3.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\7-3.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\RENDER-01-.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\RENDER-02.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\5-3.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\2-11.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\1-16.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+<div class="image">
+  <img class="image__img" src="images\4-9.jpg" alt="Bricks">
+  <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Bricks</div>
+      <p class="image__description">
+          Here we have a brick wall.
+      </p>
+  </div>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+  display: inline-flex;
+  flex-flow: row wrap;
+     
+}
+ 
+.image {
+  position: relative;
+  width: 500px;
+ 
+}
+
+.image__img {
+  padding: 2px;
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: right;
+  padding: 270px 5px;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(2px);
+}
+
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}

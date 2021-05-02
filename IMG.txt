@@ -1,0 +1,42 @@
+.gallery{
+ margin: 0 auto;
+ padding-bottom: 500px;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 2px;
+  width: 500px;
+  overflow: hidden;
+}
+
+
+
+.gallery img:hover {
+  filter: grayscale(80%);
+  transform: scale(1.1);
+  
+}
+
+
+
+
+ <div class="gallery">
+        <img src="images\1-1.jpg">
+        <img src="images\2.jpg">
+        <img src="images\1-12.jpg">
+        <img src="images\4-4.jpg">
+        <img src="images\1-7.jpg">
+        <img src="images\3-7.jpg">
+        <img src="images\cddds.jpg">
+        <img src="images\6-3.jpg">
+        <img src="images\7-3.jpg">
+        <img src="images\RENDER-01-.jpg">
+        <img src="images\RENDER-02.jpg">
+        <img src="images\5-3.jpg">
+        <img src="images\2-11.jpg">
+        <img src="images\1-16.jpg">
+        <img src="images\4-9.jpg">
+
+      </div>
+      
